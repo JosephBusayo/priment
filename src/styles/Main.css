@@ -1,0 +1,290 @@
+.main__outer-section {
+    margin: 40px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.nowrap{
+    white-space: nowrap;
+}
+
+/*|| First section -- about */
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-color:#001F46;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.about > p{
+    font-weight: 600;
+    font-size: 1.38rem;
+}
+.about__fact{
+    display: flex;
+    gap: 20px;
+}
+
+.about__fact div h3{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FF9F00;
+}
+.about__fact div p{
+    margin-top: -30px
+}
+
+/*|| Second section -- simplify */
+.simplify{
+    gap: 50px
+}
+.simplify__content-wrapper{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.simplify__title{
+    font-size: 1.75rem;
+}
+.simplify__p{
+    font-size: 1rem;
+    color: #001F46;
+}
+.simplify__image-wrapper{
+    width:216px
+}
+.simplify__image{
+    width:100%
+}
+
+.simplify__card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.simplify__card{
+    background-color: #fff;
+    box-shadow: 9px 8px 22px rgba(0, 0, 0, 0.16);
+    border-radius: 21px;
+    padding: 20px;
+    
+}
+.simplify__card h3{
+    font-size: 1.63rem;
+}
+.simplify__card p{
+    font-size: 1.13rem;
+}
+
+
+/*|| Third section -- design */
+.design{
+    width: 90%;
+}
+.imagine h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.imagine__niche-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.56rem;
+    gap: 40px;
+}
+.imagine__niche-wrapper div:last-child::before{
+    content: "<"
+}
+.imagine__niche-wrapper div:last-child::after{
+    content: " />"
+}
+
+.design_info-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+.quote__title{
+    color: #FFA600;
+    font-size: 2rem
+}
+.quote__p, .step__p{
+    font-size: 1.13rem
+}
+.step__title{
+    font-size: 1.44rem
+}
+
+/*|| Fourth section-- partners */
+.step__header{
+    text-align: center;
+    font-size: 1.5rem
+}
+.partner__logo-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+.partner__logo{
+    width: 120px
+}
+
+
+/*|| Fifth section -- subscribe */
+.subscribe{
+    background: #001F46;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 40px 0
+}
+.subscribe__title{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.subscribe__btn{
+    padding: 7px;
+    background: #FFA600;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+
+/* Mini-TABLET SCREEN */
+@media screen and (min-width: 640px){
+    /*|| First section -- about */
+    .about > p{
+        font-size: 1.75rem;
+    }
+    .about__fact div h3{
+        font-size: 2.3rem
+    }
+
+    /*|| Second section -- simplify */
+    .simplify__title{
+        font-size: 2rem;
+    }
+    .simplify__p{
+        font-size: 1.2rem;
+    }
+    .simplify__image-wrapper{
+        width:250px
+    }
+    .simplify__card-wrapper{
+        gap: 30px;
+    }
+}
+
+/* SMALL LAPTOP SCREEN */
+@media screen and (min-width: 1024px){
+    .main__outer-section {
+        margin: 40px;
+        gap: 50px;
+    }
+
+    .about{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .about > p{
+        font-size: 2rem;
+    }
+    .about__fact>div>h3{
+        font-size: 6rem;
+        font-weight: 700;
+    }
+    .about__fact>div>p{
+        font-size: 1.5rem
+    }
+    .about__fact div p{
+        margin-top: -80px
+    }
+
+    .simplify__content-wrapper{
+        flex-direction: row;
+        text-align: start;
+        padding: 0 50px;
+        gap: 50px;
+    }
+    .simplify__text{
+        width: 100%;
+    }
+    .simplify__title{
+        font-size: 3rem
+    }
+    .simplify__p{
+        font-size: 1.8rem
+    }
+    .simplify__image-wrapper{
+        width: 100%;
+    }
+    .simplify__card-wrapper{
+        flex-direction: row;
+        gap: 80px
+    }
+    .simplify__card > p{
+        font-size: 1.2rem;
+    }
+
+
+    .design{
+        width: auto;
+    }
+    .imagine h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .imagine__niche-wrapper{
+        flex-direction: row;
+        justify-content: center;
+        font-size: 2rem;
+    }
+    .design_info-wrapper{
+        display: flex;
+        flex-direction: row;
+        gap: 200px
+    }
+    .quote__title{
+        font-size: 3rem
+    }
+    .quote__p, .step__p{
+        font-size: 1.5rem
+    }
+    .step__title{
+        font-size: 1.44rem
+    }
+}
+
+
+/* LARGE LAPTOP SCREEN */
+@media screen and (min-width: 1400px){
+    .simplify__content-wrapper{
+        flex-direction: row;
+        align-items: center;
+        gap: 200px;
+        width: 100%;
+    }
+    .simplify__title{
+        font-size: 4rem
+    }
+    .simplify__p{
+        font-size: 2rem
+    }
+    .simplify__image-wrapper{
+        width: 100%;
+    }
+    .simplify__card-wrapper{
+        flex-direction: row;
+    }
+}

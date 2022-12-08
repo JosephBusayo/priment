@@ -1,0 +1,41 @@
+.footer{
+    text-align: center;
+    margin: 0 auto
+}
+.footer__logo-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer__socials-wrapper{
+    display: flex;
+    column-gap: 10px;
+
+}
+.footer__socials{
+    width:25px
+}
+
+
+.contact__text{
+    width: 170px;
+    margin: 0 auto
+}
+.contact__titles{
+    font-size: 1.3rem;
+    color: #001E76;
+}
+.contact__p{
+    font-size: 1rem;
+}
+.contact__email{
+    color: #001E76;
+}
+
+.footer__link-list{
+    display: flex;
+    justify-content: center;
+    font-size:0.8rem;
+}
