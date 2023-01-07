@@ -1,9 +1,9 @@
 .App, #root{
     height: 100%;
-    
     font-family: 'Lato', sans-serif;
 }
 body{
+    overflow-x:  hidden;
     height: 100vh;
 }
 img{

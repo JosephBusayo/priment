@@ -10,9 +10,9 @@ export default function About(){
                 <p>The landing design subscription<br/> And the numbers to prove it</p>
 
                 <div className="about__fact">
-                    <div> <h3>25K+</h3> <p>Global designers</p></div>
-                    <div> <h3>500+</h3> <p>Designs completed</p></div>
-                    <div> <h3>4K+ </h3> <p>Client served </p></div>
+                    <div> 25K+ <br/><span>Global designers</span></div>
+                    <div> 500+ <br/><span>Designs completed</span></div>
+                    <div> 4K+ <br/> <span>Client served </span></div>
                 </div>
             </section>
 
@@ -49,7 +49,9 @@ export default function About(){
             {/* THIRD SECTION */}
             <section className="main__outer-section design">
                 <section className="imagine">
-                    <h2> <span className="nowrap">If You Can Imagine It,</span> <span>We Can Design It</span></h2>
+                    <div className="imagine__title">
+                        <h2> <span className="nowrap">If You Can Imagine It,</span> <span>We Can Design It</span></h2>
+                    </div>
 
                     <div className="imagine__niche-wrapper">
                         <div>Graphic Design</div>

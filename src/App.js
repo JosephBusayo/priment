@@ -1,6 +1,7 @@
 import './styles/App.css';
 import Home from './components/Home'
 import Main from './components/Main'
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer'
 
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Home />
       <Main />
+      <Portfolio />
       <Footer />
     </div>
   );

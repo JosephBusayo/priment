@@ -6,8 +6,6 @@ export default function Footer(){
     return(
         <section className="footer">
             <div className="footer__logo-wrapper">
-                <img className="footer__logo" src="./img/footerlogo.png" alt="logo" />
-
                 <div className="footer__socials-wrapper">
                     <img className="footer__socials" src="./img/facebook.png" alt="facebook" />
                     <img className="footer__socials" src="./img/instagram.png" alt="instagram" />
